@@ -1,12 +1,61 @@
-.flex {
-    display: flex;
+.header-main {
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
 }
 
-.flex-row {
-    flex-direction: row;
+.form {
+  margin-top: 20px;
+  justify-content: center;
 }
 
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+.input {
+  flex-direction: row;
+  display: flex;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 15px;
+  background-color: #f6f6f6;
+  border: 2px solid #E8E8E8;
+  padding-left: 20px;
+  font-size: 16px;
+  
+}
+.checkbox {
+  color: #666666;
+  margin: 20px;
+  font-size: 14px;
+ 
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.button {
+  border-radius: 100px;
+  width: 330px;
+  height: 51px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-1 {
+  border: none;
+  background-color: #45fefe;
+}
+.btn-2 {
+  border: 4px solid #45fefe;
+  background-color: #ffffff;
 }
