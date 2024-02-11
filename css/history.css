@@ -5,11 +5,11 @@ body {
     margin: 0;
   }
 
-.icon-no-bg {
+.history-icon-no-bg {
     width: 95px;
   }
   
-  .icon {
+  .history-icon {
     border: 3px solid #45fefe;
     width: 95px;
     border-radius: 25px;
@@ -17,12 +17,12 @@ body {
     margin-top: 50px;
   }
   
-  .header {
+  .history-header {
     font-size: 16px;
     text-align: center;
   }
   
-  .input {
+  .history-input {
     flex-direction: row;
     display: flex;
     height: 50px;
@@ -35,29 +35,29 @@ body {
     font-size: 16px;
   }
   
-  .items {
+  .history-items {
     display: flex;
     flex-direction: row;
   }
   
-  .resultado {
+  .history-resultado {
     width: 100%;
   }
   
-  .titulo {
+  .history-titulo {
     font-weight: bold;
   }
   
-  .resultado-header {
+  .history-resultado-header {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
   }
   
-  .box {
+  .history-box {
     width: 20%;
   }
-  .card {
+  .history-card {
     border: 2px solid #e8e8e8;
     border-radius: 10px;
     border-top: 0px;
@@ -66,17 +66,17 @@ body {
     margin: 10px;
     background-color: #e8e8e8;
   }
-  .titulo {
+  .history-titulo {
     font-weight: bold;
   }
   
-  .descricao > p,
+  .history-descricao > p,
   hr {
     margin-top: 4px;
     margin-right: 15px;
   }
   
-  .data {
+  .history-data {
     color: #666666;
   }
   

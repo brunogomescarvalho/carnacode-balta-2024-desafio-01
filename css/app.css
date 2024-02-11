@@ -11,6 +11,13 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.body {
+  background-color: white;
+  align-items: start;
+  display: flex;
+  height: auto;
+}
+
 .icon {
   border: 3px solid #45fefe;
   width: 95px;
@@ -91,4 +98,64 @@ body {
 .btn-2 {
   border: 4px solid #45fefe;
   background-color: #ffffff;
+}
+
+.icon-splash {
+  border: 3px solid #45fefe;
+  width: 180px;
+  border-radius: 20px;
+  background-color: white;
+}
+.icon-no-bg-splash {
+  width: 180px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.resultado {
+  width: 100%;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.resultado-header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.box {
+  width: 20%;
+}
+.card {
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  border-top: 0px;
+  padding: 20px;
+  align-items: start;
+  margin: 10px;
+  background-color: #e8e8e8;
+}
+.titulo {
+  font-weight: bold;
+}
+
+.descricao > p,
+hr {
+  margin-top: 4px;
+  margin-right: 15px;
+}
+
+.data {
+  color: #666666;
+}
+
+.header {
+  font-size: 16px;
+  text-align: center;
 }
