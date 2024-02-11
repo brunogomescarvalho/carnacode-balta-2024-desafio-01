@@ -1,0 +1,19 @@
+body {
+  background-color: #2a105b;
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  border: 3px solid #45fefe;
+  width: 180px;
+  border-radius: 20px;
+  background-color: white;
+}
+.icon-no-bg {
+  width: 180px;
+}
